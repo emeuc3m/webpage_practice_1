@@ -53,6 +53,7 @@ body{
 #header{
     background-color: rgb(190, 136, 54);
     height: 7%;
+    width: 100%;
     padding: 0px;
     display: flex;
     align-items: center;
@@ -68,9 +69,9 @@ body{
     float: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     font-style: Trebuchet MS;
-    font-size: 40;
+    font-size: 300%;
     color:rgb(53, 53, 53); 
-    margin-left: 10px;
+    margin-left: 0.5%;
 }
 
 .header_text {
@@ -115,13 +116,15 @@ body{
 
 
 .banner{
-    margin-top: 10px;
-    margin-left: 8.33%;
+    margin-top: 2%;
+    text-align: center;
+    
 }
 
 #banner_img {
     margin: auto;
-    width: 100%;
+    width: 1251;
+    height: 597;
 }
 
 #search_bar_div {
