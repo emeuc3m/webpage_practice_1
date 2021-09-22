@@ -164,18 +164,39 @@ body{
 }
 
 #experiences_div{
-    background-color: rgba(0, 255, 34, 0.459);
+    display: grid;
+    grid-template-areas:
+    "left center right"
+    "left center right"
+    "left center right"
+    "left center right";
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(34, 113, 218, 0.459);
     margin-left: 8.33%;
     margin-top: 20px;   
     padding: 0px;
+}
 
-    
+#experiences_div > left{
+    grid-area: left;
+}
+
+#experiences_div > right{
+    grid-area: right;
+    margin: right  ;
+}
+
+#experiences_div > center{
+    grid-area: center;
+    margin: center;
 }
 
 .photo_container{
     float: left; 
     margin-left: 40px;
     background-color: rgba(221, 16, 16, 0.596);
+    margin: auto;
 }
 
 .photo_title{
@@ -215,21 +236,21 @@ body{
     width: 400px;
 }
 
-#orange_squeeze{
+/* #orange_squeeze{
     margin-top: 35px;
-}
+} */
 
-#orange_squeeze_photo{
+/* #orange_squeeze_photo{
     width: 200px;
-}
+} */
 
-#orange_squeeze2{
+/* #orange_squeeze2{
     margin-top: 100px;
-}
+} */
 
-#orange_squeeze_photo2{
+/* #orange_squeeze_photo2{
     width: 200px;    
-}
+} */
 
 /* .search_bar{
     margin: 40px;
