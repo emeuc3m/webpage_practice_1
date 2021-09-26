@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!-------------------------------------------- HEADER ---------------------------------------------->
         <div id="header">
             <img id = "orange_logo" src="https://image.flaticon.com/icons/png/512/203/203262.png" alt="logo">
             <h1 id = "header_title">Juicy trip</h1>
@@ -12,91 +13,119 @@
             <a class = "header_text" id = "header_contact" href="http://google.com/" target="_blank">Contact</a>
             <input type="button" class="header_button" id ="log_in_button" value="Log in"></input> 
             <input type="button" class="header_button" value="Sign up"></input> 
-        </div> 
-        <div class="banner">
-            <img id = "banner_img" src ="https://i.ibb.co/JBptf4t/Screenshot-2.png" 
-            alt="oranges" usemap = "#workmap">
-            <map name="workmap">
-                <area shape="circle" coords="480, 237, 12" href="avila.html">
-                <area shape="circle" coords="716, 338, 12" href="https://www.fruteriadevalencia.com/">
-                <area shape="circle" coords="376, 550, 12" href="https://www.elabuelopedro.es/">
-                <area shape="circle" coords="912, 330, 12" href="https://www.elabuelopedro.es/">
-            </map>
         </div>
-        <div class="col-4 col-s-4" id = "search_bar_div">
-            <input type="text" placeholder="Search.." class = "search_bar">
-            <input type="submit" float="left" class = "search_btn">
+        <div id="content">
+            <!-------------------------------------------- MAP ------------------------------------------------->
+            <div class="banner">
+                <img id = "banner_img" src ="https://i.ibb.co/JBptf4t/Screenshot-2.png" 
+                alt="oranges" usemap = "#workmap">
+                <map name="workmap">
+                    <area shape="circle" coords="480, 237, 12" href="avila.html">
+                    <area shape="circle" coords="716, 338, 12" href="valencia.html">
+                    <area shape="circle" coords="376, 550, 12" href="cadiz.html">
+                    <area shape="circle" coords="912, 330, 12" href="mallorca.html">
+                </map>
+            </div>
+            <!-------------------------------------------- SEARCH BAR ------------------------------------------->
+            <div  id = "search_bar_div">
+                <input type="text" placeholder="Search.." class = "search_bar">
+                <input type="submit" float="left" class = "search_btn">
+            </div>
+            <!-------------------------------------------- EXPERIENCES ------------------------------------------->
+            <div class="col-10 col-s-10" id = "experiences_div">
+                <div class="photo_column">
+                    <div class = "photo_container" id = "orange_juice_">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
+                        alt="orange juice" class = "photo" id = "orange_juice_photo">
+                        <h3 class = "photo_title">Orange juice</h3>
+                        <a class = "photo_description">Closup phto of an orange juice <br> being poured on a glass</a>
+                    </div>
+
+                    <div class = "photo_container" id ="museum_juice">
+                        <img src="https://i.ibb.co/6vt39xP/museo-zumo.jpg"
+                        alt="orange juice museum" class = "photo" id = "museum_juice_photo">
+                        <h3 class = "photo_title">Orange juice museum</h3>
+                        <a class = "photo_description">Man admiring juice art</a>
+                    </div>
+
+                    <div class = "photo_container" id ="orange_squeeze">
+                        <img src="https://media.istockphoto.com/photos/hand-squeezing-orange-picture-id473180828?k=20&m=473180828&s=170667a&w=0&h=_aoTbgeCCzTasd9AO7v1o7zn19-l58oS8_4lB-luDpw="
+                        alt="orange being squeezed" class = "photo" id = "orange_squeeze_photo">
+                        <h3 class = "photo_title">Orange juice museum</h3>
+                        <a class = "photo_description">Man admiring juice art</a>
+                    </div>
+                </div>
+                <div class="photo_column">
+                    <div class = "photo_container" id ="orange_squeeze_2">
+                        <img src="https://media.istockphoto.com/photos/hand-squeezing-orange-picture-id473180828?k=20&m=473180828&s=170667a&w=0&h=_aoTbgeCCzTasd9AO7v1o7zn19-l58oS8_4lB-luDpw="
+                        alt="orange being squeezed" class = "photo" id = "orange_squeeze_photo2">
+                        <h3 class = "photo_title">Orange juice museum</h3>
+                        <a class = "photo_description">Man admiring juice art</a>
+                    </div>
+
+                    <div class = "photo_container" id = "orange_juice_2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
+                        alt="orange juice" class = "photo" id = "orange_juice_photo">
+                        <h3 class = "photo_title">Orange juice</h3>
+                        <a class = "photo_description">Closup phto of an orange juice <br> being poured on a glass</a>
+                    </div>
+
+                    <div class = "photo_container" id = "orange_juice_3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
+                        alt="orange juice" class = "photo" id = "orange_juice_photo">
+                        <h3 class = "photo_title">Orange juice</h3>
+                        <a class = "photo_description">Closup phto of an orange juice <br> being poured on a glass</a>
+                    </div>
+                
+                    <div class = "photo_container" id = "orange_juice_4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
+                        alt="orange juice" class = "photo" id = "orange_juice_photo">
+                        <h3 class = "photo_title">Orange juice</h3>
+                        <a class = "photo_description">Closup phto of an orange juice <br> being poured on a glass</a>
+                    </div>
+                </div>
+                <div class="photo_column">
+                    <div class = "photo_container" id = "orange_juice_5">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
+                        alt="orange juice" class = "photo" id = "orange_juice_photo">
+                        <h3 class = "photo_title">Orange juice</h3>
+                        <a class = "photo_description">Closup phto of an orange juice <br> being poured on a glass</a>
+                    </div>
+
+                    <div class = "photo_container" id = "orange_juice_6">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
+                        alt="orange juice" class = "photo" id = "orange_juice_photo">
+                        <h3 class = "photo_title">Orange juice</h3>
+                        <a class = "photo_description">Closup phto of an orange juice <br> being poured on a glass</a>
+                    </div>
+
+                    <div class = "photo_container" id = "orange_juice_7">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
+                        alt="orange juice" class = "photo" id = "orange_juice_photo">
+                        <h3 class = "photo_title">Orange juice</h3>
+                        <a class = "photo_description">Closeup photo of an orange juice <br> being poured on a glass</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-10 col-s-10" id = "experiences_div">
-
-            <div class = "photo_container" id = "orange_juice_">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
-                alt="orange juice" class = "photo" id = "orange_juice_photo">
-                <h3 class = "photo_title">Orange juice</h3>
-                <a class = "photo_description">Closup phto of an orange juice <br> being poured on a glass</a>
-            </div>
-
-            <div class = "photo_container" id ="museum_juice">
-                <img src="https://i.ibb.co/6vt39xP/museo-zumo.jpg"
-                alt="orange juice museum" class = "photo" id = "museum_juice_photo">
-                <h3 class = "photo_title">Orange juice museum</h3>
-                <a class = "photo_description">Man admiring juice art</a>
-            </div>
-
-            <div class = "photo_container" id ="orange_squeeze">
-                <img src="https://media.istockphoto.com/photos/hand-squeezing-orange-picture-id473180828?k=20&m=473180828&s=170667a&w=0&h=_aoTbgeCCzTasd9AO7v1o7zn19-l58oS8_4lB-luDpw="
-                alt="orange being squeezed" class = "photo" id = "orange_squeeze_photo">
-                <h3 class = "photo_title">Orange juice museum</h3>
-                <a class = "photo_description">Man admiring juice art</a>
-            </div>
-            
-            <div class = "photo_container" id ="orange_squeeze_2">
-                <img src="https://media.istockphoto.com/photos/hand-squeezing-orange-picture-id473180828?k=20&m=473180828&s=170667a&w=0&h=_aoTbgeCCzTasd9AO7v1o7zn19-l58oS8_4lB-luDpw="
-                alt="orange being squeezed" class = "photo" id = "orange_squeeze_photo2">
-                <h3 class = "photo_title">Orange juice museum</h3>
-                <a class = "photo_description">Man admiring juice art</a>
-            </div>
-
-            <div class = "photo_container" id = "orange_juice_2">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
-                alt="orange juice" class = "photo" id = "orange_juice_photo">
-                <h3 class = "photo_title">Orange juice</h3>
-                <a class = "photo_description">Closup phto of an orange juice <br> being poured on a glass</a>
-            </div>
-
-            <div class = "photo_container" id = "orange_juice_3">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
-                alt="orange juice" class = "photo" id = "orange_juice_photo">
-                <h3 class = "photo_title">Orange juice</h3>
-                <a class = "photo_description">Closup phto of an orange juice <br> being poured on a glass</a>
-            </div>
-
-            <div class = "photo_container" id = "orange_juice_4">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
-                alt="orange juice" class = "photo" id = "orange_juice_photo">
-                <h3 class = "photo_title">Orange juice</h3>
-                <a class = "photo_description">Closup phto of an orange juice <br> being poured on a glass</a>
-            </div>
-
-            <div class = "photo_container" id = "orange_juice_5">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
-                alt="orange juice" class = "photo" id = "orange_juice_photo">
-                <h3 class = "photo_title">Orange juice</h3>
-                <a class = "photo_description">Closup phto of an orange juice <br> being poured on a glass</a>
-            </div>
-
-            <div class = "photo_container" id = "orange_juice_6">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
-                alt="orange juice" class = "photo" id = "orange_juice_photo">
-                <h3 class = "photo_title">Orange juice</h3>
-                <a class = "photo_description">Closup phto of an orange juice <br> being poured on a glass</a>
-            </div>
-
-            <div class = "photo_container" id = "orange_juice_7">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/422px-Orange_juice_1.jpg"
-                alt="orange juice" class = "photo" id = "orange_juice_photo">
-                <h3 class = "photo_title">Orange juice</h3>
-                <a class = "photo_description">Closup phto of an orange juice <br> being poured on a glass</a>
+        <!---------------------------------------------------FOOTER------------------------------------------------------------------>
+        <div id="footer">
+            <img id="orange_logo_footer" src="https://image.flaticon.com/icons/png/512/203/203262.png" alt="logo">
+            <h1 id = "footer_title">Juicy trip</h1> 
+            <div id="footer_right">
+                <div class="footer_grid" id="social_media">
+                    <a class="header_text" id ="faq" href="https://www.google.com" >FAQ</a>
+                    <a id="instagram_logo" href = "https://www.instagram.com/">
+                        <img id="instagram_logo" alt="instagram logo" src="./images/instagram.png">
+                    </a>
+                    <a id="facebook_logo" href = "https://www.facebook.com/">
+                        <img id="facebook_logo" alt="facebook logo" src="./images/facebook.png">
+                    </a>
+                    <a id="twitter_logo" href = "https://www.twitter.com/">
+                        <img id="twitter_logo" alt="twitter logo" src="./images/twitter.png">
+                    </a>
+                </div>
+                <a class="header_text footer_grid" id ="terms" href="https://www.google.com" >Terms and conditions</a>
             </div>
         </div>
     </body>

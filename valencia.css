@@ -69,7 +69,7 @@ body{
     float: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     font-style: Trebuchet MS;
-    font-size: 30;
+    font-size: 30;;
     color:rgb(53, 53, 53); 
     margin-left: 0.5%;
 }
@@ -114,122 +114,35 @@ body{
     margin-left: 49.6%;
 }
 
-#content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.banner{
-    margin-top: 2%;
-    text-align: center;
-    
+#mario_with_farmer{
+    width: 100%;
 }
 
-#banner_img {
+#text_div{
+    background-color: rgb(190, 136, 54);
     margin: auto;
-    width: 1251;
-    height: 597;
+    width: 80%;
+    margin-top: 2%;
+    border-radius: 4px;
+    text-align: center;
 }
 
-#search_bar_div {
-    height: 20px;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    
-}
-
-.search_bar{
-    background-color: rgb(190, 136, 54);
-    margin-top: auto;
-    /* float: left;
-    margin-left: 15%; */
-    border: none;
-    border-radius: 3px;
-    height: 30px;
-    width: 250px;
+#avila_experience_title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    font-style: Trebuchet MS;
     color: rgb(53, 53, 53);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
-    font-size: 15;
-    font-style: bold;
 }
 
-.search_btn{
-    float: left;
-    margin-top: auto;
-    margin-left: 2px;
-    height: 30px;
-    border: none;
-    border-radius: 3px;
-    background-color: rgb(190, 136, 54);
+#mario_with_farmer_text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    font-style: Trebuchet MS;
     color: rgb(53, 53, 53);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
-    cursor: pointer;
+    font-size: 20px;
 }
 
-#experiences_div{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 15px;
-    /* background-color: rgba(34, 113, 218, 0.459); */
-    margin-top: 20px;   
-    margin-bottom: 20px;
-}
-
-.photo_column{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-
-.photo_container{
-    margin: 5px 5px 5px;
-    float: left;
-
-    /* background-color: rgba(221, 16, 16, 0.596); */
-
-}
-
-.photo_title{
-    color: rgb(190, 136, 54);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
-    font-weight: bold;
-}
-
-.photo_description{
-    color: rgb(190, 136, 54);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
-    font-weight: 40;
-
-}
-
-.photo{
-    margin-bottom: 5px;
-    box-shadow: 5px 3px 10px rgb(190, 136, 54);
-}
-
-#orange_juice{
-    margin-top: 0px;
-    margin-left: 60px;
-}
-
-#orange_juice_photo{
-    height: 350px;
-}
-
-#museum_juice{
-    margin-top: 50px;
-}
-
-#museum_juice_photo{
-    width: 400px;
+#photo{
+    margin-top: 15px;
+    width: 100%;
 }
 
 #footer{  
@@ -293,64 +206,3 @@ body{
     margin:auto;
     margin-right: -142px;
 }
-
-
-/* #orange_squeeze{
-    margin-top: 35px;
-} */
-
-/* #orange_squeeze_photo{
-    width: 200px;
-} */
-
-/* #orange_squeeze2{
-    margin-top: 100px;
-} */
-
-/* #orange_squeeze_photo2{
-    width: 200px;    
-} */
-
-/* .search_bar{
-    margin: 40px;
-    background-color: rgb(190, 136, 54);
-} */
-
-/* #title {
-    width: 100%;
-    height: 85px;
-    background-color: rgb(190, 136, 54);
-    border: 2px rgb(190, 136, 54) solid; 
-    margin: auto;
-    margin-bottom: 50px; 
-    overflow : hidden;
-}
-
-#banner {
-    text-align:center; 
-    overflow:hidden; 
-    width:85%;
-    margin: auto;
-}
-
-#orange_logo {
-    width: 45px;
-    float : left;
-    margin-left: 30px;
-    margin-top: 20px;
-}
-
-#header_text {
-    float: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
-    font-size: 60;
-    color:rgb(53, 53, 53); 
-    margin-left: 5px;
-    margin-top: 8px;
-}
-
-#banenr_img {
-    margin: auto; 
-    width: 80vw;
-} */

@@ -69,7 +69,7 @@ body{
     float: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     font-style: Trebuchet MS;
-    font-size: 30;
+    font-size: 30;;
     color:rgb(53, 53, 53); 
     margin-left: 0.5%;
 }
@@ -144,6 +144,7 @@ body{
     margin-top: 15px;
     width: 100%;
 }
+
 
 #footer{  
     background-color: rgb(190, 136, 54);
