@@ -6,70 +6,177 @@ body{
     background-color: rgb(53, 53, 53);
     width: 100%;
 }
-  
-  /* [class*="col-"] {
-    float: left;
-    padding: 15px;
-  } */
-  
-
-  
-    /* For mobile phones:
-  [class*="col-"] {
-    width: 100%;
-  } */
-  
-  /* @media only screen and (min-width: 600px) {
-     For tablets:
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
-  } */
 
   /*---------------------------------- FOR PHONE ---------------------------------- */
   @media only screen and (max-width: 600px){
+      
+    #header{
+        height: 11vw;       
+    }
+
+    #orange_logo{
+        width: 7%;
+    }
+
+    #header_title{
+        font-size: 5.5vw;     
+    }
+
+    .header_text {
+        font-size: 3vw;
+    }
+
+    #header_home{
+        margin-left: 4%;
+    }
+
+    .header_button{
+        height: 55%;
+        width: 12%; 
+        margin: 1%;
+        font-size: 2.8vw;       
+    }   
+
+    #log_in_button {
+        margin-left: 5%;
+    }
+
+    #search_bar_div{
+        width: 80vw;
+    }
+
+    .search_bar{
+        font-size: 2.7vw;
+    }
+    .search_btn{
+        font-size: 2.7vw;
+    }
     .experiences_div_phone{
         width: 100vw;
-        display: grid;
-        grid-template-columns: 1;
-        
+        grid-template-columns: 1;       
         margin-top: 20px;   
         margin-bottom: 20px;
-        /* background-color: rgba(77, 218, 34, 0.459); */
-        /* display: flex; */
-        align-items: center;
     }
     
     .photo{
         width: 50vw;
     }
+    
     .photo_column_tablet{
         display: none;
+    }
+
+    #footer{  
+        background-color: rgb(190, 136, 54);
+        width:100%; /*94.94em*/
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+    }
+
+    #orange_logo_footer{
+        width: 5%;
+        float : left;   
+        margin: 1%;
+        
+    }
+
+    #footer_title{
+        float: left;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+        font-style: Trebuchet MS;
+        font-size:4vw;
+        color:rgb(53, 53, 53); 
+        margin-left: 0.5%;
+
+    }
+    #footer_right{
+        display: flex;
+        margin-left: 0%;
+        
+    }
+
+    #social_media{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        margin-left: 100%;
+    }
+    #faq{
+        font-size: 2.5vw;
+        margin-right: 10%;
+    }
+    #instagram_logo{
+        /* width: 40px; */
+        width: 5vw;
+    }
+    #facebook_logo{
+        /* width: 50px; */
+        width: 6vw;
+        
+    }
+    #twitter_logo{
+        /* margin-top: 0.5px;
+        width: 38px; */
+        width: 4.5vw;
+    }
+    #terms{
+        font-size: 2vw;
+        margin: auto;
+        margin-left: 10%;
     }
     
   }
 
   /*---------------------------------- FOR TABLET ---------------------------------- */
-  @media only screen and (min-width: 600px){
+  @media only screen and (min-width: 601px){
+    #header{
+        height: 9vw;
+    }
+
+    #orange_logo{
+        width: 5%;
+    }
+
+    #header_title{
+        font-size: 4.5vw;
+    }
+
+    .header_text {
+        font-size: 2.5vw;
+    }
+
+    #header_home{
+        margin-left: 4%;
+    }
+
+    .header_button{
+        height: 55%;
+        width: 8%; 
+        margin: 0.5%;
+        font-size: 1.8vw;
+    } 
+
+    #log_in_button {
+        margin-left: 25%;
+    }
+
+    #search_bar_div{
+        width: 65vw;
+    }
+    
+    .search_bar{
+        font-size: 2.1vw;
+    }
+    .search_btn{
+        font-size: 2.1vw;
+    }
+
     .experiences_div_tablet{
         width: 100vw;
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-       
-        /* background-color: rgba(190, 218, 34, 0.459); */
-        margin-top: 20px;   
-        margin-bottom: 20px;
-        /* display: flex; */
-        align-items: center;
+        margin-top: 30px;   
+        margin-bottom: 30px;
     }
     .photo{
         width: 40vw;
@@ -86,18 +193,116 @@ body{
         display: none;
     }
 
+    #footer{  
+        background-color: rgb(190, 136, 54);
+        width:100%; /*94.94em*/
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+    }
+
+    #orange_logo_footer{
+        width: 5%;
+        float : left;   
+        margin: 1%;
+        
+    }
+
+    #footer_title{
+        float: left;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+        font-style: Trebuchet MS;
+        font-size:3.5vw;
+        color:rgb(53, 53, 53); 
+        margin-left: 0.5%;
+
+    }
+    #footer_right{
+        display: flex;  
+    }
+
+    #social_media{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        margin-left: 150%;
+    }
+    #faq{
+        font-size: 2vw;
+        margin-right: 10%;
+    }
+    #instagram_logo{
+        /* width: 40px; */
+        width: 4.5vw;
+    }
+    #facebook_logo{
+        /* width: 50px; */
+        width: 5.5vw;
+        
+    }
+    #twitter_logo{
+        /* margin-top: 0.5px;
+        width: 38px; */
+        width: 4vw;
+    }
+    #terms{
+        font-size: 1.5vw;
+        margin: auto;
+        margin-left: 10%;
+    }
+
   }
   /*---------------------------------- FOR DESKTOP ---------------------------------- */
-  @media only screen and (min-width: 1024px){
+  @media only screen and (min-width: 1025px){
+      
+    #header{
+        height: 4vw;   
+    }
+
+    #orange_logo{
+        width: 3%;
+    }
+
+    #header_title{
+        font-size: 2.5vw;
+    }
+
+    .header_text {
+        font-size: 1.5vw;
+    }
+
+    #header_home{
+        margin-left: 3%;
+    }
+
+    .header_button{
+        height: 65%;
+        width: 5%; 
+        margin: 0.2%;
+
+        font-size: 1vw; 
+    }
+
+    #log_in_button {
+        margin-left: 49.6%;
+    }
+
+    #search_bar_div{
+        width: 60vw;
+    }
+    
+    .search_bar{
+        font-size: 1.2vw;
+    }
+    .search_btn{
+        font-size: 1.2vw;
+    }
+
     .experiences_div_desktop{
         width: 96.95vw;
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
         margin-top: 20px;   
         margin-bottom: 20px;
-        /* background-color: rgba(46, 90, 235, 0.623); */
-        /* display: flex; */
-        align-items: center;
     }
 
     .col_1_desktop{
@@ -106,9 +311,6 @@ body{
     .col_2_desktop{
         width: 20vw;
     }
-    
-    
-    
 
     .photo_column_desktop{
         display: flex;
@@ -119,94 +321,124 @@ body{
     .photo_column_tablet{
         display: none;
     }
+
+    
+    #footer{  
+        background-color: rgb(190, 136, 54);
+        width:100%; /*94.94em*/
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+    }
+
+    #orange_logo_footer{
+        width: 3%;
+        float : left;   
+        margin-left: 0.5%;
+        
+    }
+
+    #footer_title{
+        float: left;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+        font-style: Trebuchet MS;
+        font-size:1.7vw;
+        color:rgb(53, 53, 53); 
+        margin-left: 0.5%;
+
+    }
+    #footer_right{
+        display: grid;
+        grid-template-areas: 
+        'top'
+        'bottom';
+        margin-left: 67vw;
+        
+    }
+    .footer_grid{
+        margin: auto;
+        
+    }
+
+    #social_media{
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        margin-left: 75%;
+    }
+    #faq{
+        font-size: 1.5vw;
+        margin-right: 5%;
+    }
+    #instagram_logo{
+        /* width: 40px; */
+        width: 2.3vw;
+    }
+    #facebook_logo{
+        /* width: 50px; */
+        width: 2.8vw;
+        
+    }
+    #twitter_logo{
+        /* margin-top: 0.5px;
+        width: 38px; */
+        width: 2vw;
+    }
+    #terms{
+        font-size: 1.2vw;
+        margin:auto;
+        margin-right: -8.5vw;
+        margin-bottom: 5%;
+    }
   }
-
-
-
-  /* @media only screen and (min-width: 768px) {
-    For desktop:
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  } */
 
 #header{
     background-color: rgb(190, 136, 54);
-    /* height: 7%; */
-    height: 4vw;
     width: 100%;
     display: flex;
     align-items: center;
 }
-
 #orange_logo{
-    width: 3%;
     float : left;   
-    /* margin-left: 0.5%; */
     margin: 0.5%
 }
-
 #header_title{
     float: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     font-style: Trebuchet MS;
-    font-size: 2.5vw;
     color:rgb(53, 53, 53); 
     margin-left: 0.5%;
 }
-
 .header_text {
-    float: left;
+    float: right;
     color: rgb(53, 53, 53);
     margin-right: 1%;
     margin-top: 0.2%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     font-style: Trebuchet MS;
-    font-size: 1.5vw;
 }
-
-#header_home{
-    margin-left: 3%;
-}
-
-/* #header_about{
-}
-
-#header_contact{
-} */
-
 .header_button{
-    height: 65%;
-    width: 5%; 
-    margin: 0.2%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     font-style: Trebuchet MS;
-    font-size: 1vw;
     border: none;
     cursor: pointer;
     text-align: center;
     color: rgb(190, 136, 54);
-    border-radius: 3px;
-    
-}   
+    border-radius: 3px;   
+}
+
 #sign_up_button{
     border:rgb(53, 53, 53) solid 2px;
     color: rgb(53, 53, 53);
     background-color: rgb(190, 136, 54);
 }
-
-#log_in_button {
-    margin-left: 49.6%;
+  /* AQUI */
+  #log_in_button {
     background-color: rgb(53, 53, 53);
+}
+.experiences_div_desktop{
+    display: grid;
+    align-items: center;
 }
 
 #content{
@@ -230,11 +462,10 @@ body{
 
 #search_bar_div {
     height: 7%;
-    width: 30%;
     border-radius: 3px;
     display: flex;
     align-items: center;
-    margin-top: 2.5%;
+    margin-top: 5%;
     
 }
 
@@ -244,11 +475,11 @@ body{
     border: none;
     border-radius: 3px;
     height: 9%;
-    width: 100%;
+    width: 85%;
     color: rgb(53, 53, 53);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     font-style: Trebuchet MS;
-    font-size: 100%;
+    
     font-style: bold;
 }
 
@@ -263,7 +494,7 @@ body{
     color: rgb(53, 53, 53);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     font-style: Trebuchet MS;
-    font-size: 100%;
+    
     cursor: pointer;
 }
 
@@ -298,134 +529,3 @@ body{
     margin-top: 7%;
     box-shadow: 5px 3px 10px rgb(190, 136, 54);
 }
-
-/* Cambiar en funcion de las fotos que pongamos */
-
-
-#footer{  
-    background-color: rgb(190, 136, 54);
-    width:100%; /*94.94em*/
-    margin-top: 5%;
-    display: flex;
-    align-items: center;
-}
-
-#orange_logo_footer{
-    width: 3%;
-    float : left;   
-    margin-left: 0.5%;
-    
-}
-
-#footer_title{
-    float: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
-    font-size:1.7vw;
-    color:rgb(53, 53, 53); 
-    margin-left: 0.5%;
-
-}
-#footer_right{
-    display: grid;
-    grid-template-areas: 
-    'top'
-    'bottom';
-    margin-left: 67vw;
-    
-}
-.footer_grid{
-    margin: auto;
-    
-}
-
-#social_media{
-    margin-top: 5%;
-    display: flex;
-    align-items: center;
-    margin-left: 75%;
-}
-#faq{
-    font-size: 1.5vw;
-    margin-right: 5%;
-}
-#instagram_logo{
-    /* width: 40px; */
-    width: 2.3vw;
-}
-#facebook_logo{
-    /* width: 50px; */
-    width: 2.8vw;
-    
-}
-#twitter_logo{
-    /* margin-top: 0.5px;
-    width: 38px; */
-    width: 2vw;
-}
-#terms{
-    margin:auto;
-    margin-right: -8.5vw;
-    margin-bottom: 5%;
-}
-
-
-/* #orange_squeeze{
-    margin-top: 35px;
-} */
-
-/* #orange_squeeze_photo{
-    width: 200px;
-} */
-
-/* #orange_squeeze2{
-    margin-top: 100px;
-} */
-
-/* #orange_squeeze_photo2{
-    width: 200px;    
-} */
-
-/* .search_bar{
-    margin: 40px;
-    background-color: rgb(190, 136, 54);
-} */
-
-/* #title {
-    width: 100%;
-    height: 85px;
-    background-color: rgb(190, 136, 54);
-    border: 2px rgb(190, 136, 54) solid; 
-    margin: auto;
-    margin-bottom: 50px; 
-    overflow : hidden;
-}
-
-#banner {
-    text-align:center; 
-    overflow:hidden; 
-    width:85%;
-    margin: auto;
-}
-
-#orange_logo {
-    width: 45px;
-    float : left;
-    margin-left: 30px;
-    margin-top: 20px;
-}
-
-#header_text {
-    float: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
-    font-size: 60;
-    color:rgb(53, 53, 53); 
-    margin-left: 5px;
-    margin-top: 8px;
-}
-
-#banenr_img {
-    margin: auto; 
-    width: 80vw;
-} */
