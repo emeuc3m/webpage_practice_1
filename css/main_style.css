@@ -507,6 +507,8 @@ body{
 
 .search_bar::placeholder{
     color: rgb(53, 53, 53);
+    font-weight: 700;
+    font-style: normal;
 }
 
 .search_btn{
