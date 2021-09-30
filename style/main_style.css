@@ -1,3 +1,11 @@
+/* ------------------------------------------------------------------------- */
+/* --------------------------- AUTHORS ------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* ---------- IGNACIO AGUILERA CÁRDENAS, 100429045@alumnos.uc3m.es --------- */
+/* ---------- MARIO SÁNCHEZ MUÑOZ, 100428970@alumnos.uc3m.es --------------- */
+/* ------------------------------------------------------------------------- */
+
+
 * {
     margin: 0
 }
@@ -7,7 +15,9 @@ body{
     width: 100%;
 }
 
-  /*---------------------------------- FOR PHONE ---------------------------------- */
+  /*---------------------------------------------------------------------------------*/
+  /*----------------------------------- FOR PHONE -----------------------------------*/
+  /*---------------------------------------------------------------------------------*/
   @media only screen and (max-width: 600px){
       
     #header{
@@ -15,7 +25,7 @@ body{
     }
 
     #orange_logo{
-        width: 7%;
+        width: 7vw;
     }
 
     #header_title{
@@ -45,13 +55,13 @@ body{
         width: 80vw;
     }
 
-    .search_bar{
+    #search_bar{
         font-size: 2.7vw;
     }
-    .search_btn{
+    #search_btn{
         font-size: 2.7vw;
     }
-    .experiences_div_phone{
+    #experiences_container{
         width: 100vw;
         grid-template-columns: 1;       
         margin-top: 20px;   
@@ -61,45 +71,35 @@ body{
     .photo{
         width: 50vw;
     }
+
+    .photo_title{
+        font-size: 4vw;
+    }
+
+    .photo_description{
+        font-size: 2.5vw;
+    }
     
     .photo_column_tablet{
         display: none;
     }
 
-    #footer{  
-        background-color: rgb(190, 136, 54);
-        width:100%; /*94.94em*/
-        margin-top: 5%;
-        display: flex;
-        align-items: center;
-    }
 
     #orange_logo_footer{
-        width: 5%;
-        float : left;   
-        margin: 1%;
-        
+        width: 5%; 
+        margin: 1%;   
     }
 
     #footer_title{
-        float: left;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-        font-style: Trebuchet MS;
         font-size:4vw;
-        color:rgb(53, 53, 53); 
-        margin-left: 0.5%;
-
     }
+
     #footer_right{
         display: flex;
-        margin-left: 0%;
-        
     }
 
     #social_media{
         margin: auto;
-        display: flex;
-        align-items: center;
         margin-left: 100%;
     }
     #faq{
@@ -107,35 +107,32 @@ body{
         margin-right: 10%;
     }
     #instagram_logo{
-        /* width: 40px; */
         width: 5vw;
     }
     #facebook_logo{
-        /* width: 50px; */
         width: 6vw;
         
     }
     #twitter_logo{
-        /* margin-top: 0.5px;
-        width: 38px; */
         width: 4.5vw;
     }
     #terms{
         font-size: 2vw;
-        margin: auto;
         margin-left: 10%;
     }
     
   }
 
-  /*---------------------------------- FOR TABLET ---------------------------------- */
+  /*---------------------------------------------------------------------------------*/
+  /*---------------------------------- FOR TABLET -----------------------------------*/
+  /*---------------------------------------------------------------------------------*/
   @media only screen and (min-width: 601px){
     #header{
         height: 9vw;
     }
 
     #orange_logo{
-        width: 5%;
+        width: 6vw;
     }
 
     #header_title{
@@ -165,14 +162,14 @@ body{
         width: 65vw;
     }
     
-    .search_bar{
+    #search_bar{
         font-size: 2.1vw;
     }
-    .search_btn{
+    #search_btn{
         font-size: 2.1vw;
     }
 
-    .experiences_div_tablet{
+    #experiences_container{
         width: 100vw;
         grid-template-columns: repeat(2, 1fr);
         margin-top: 30px;   
@@ -180,6 +177,14 @@ body{
     }
     .photo{
         width: 40vw;
+    }
+
+    .photo_title{
+        font-size: 3vw;
+    }
+
+    .photo_description{
+        font-size: 2vw;
     }
 
     .photo_column_tablet{
@@ -193,38 +198,21 @@ body{
         display: none;
     }
 
-    #footer{  
-        background-color: rgb(190, 136, 54);
-        width:100%; /*94.94em*/
-        margin-top: 5%;
-        display: flex;
-        align-items: center;
-    }
-
     #orange_logo_footer{
-        width: 5%;
-        float : left;   
-        margin: 1%;
-        
+        width: 5%;  
+        margin: 1%;  
     }
 
     #footer_title{
-        float: left;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-        font-style: Trebuchet MS;
         font-size:3.5vw;
-        color:rgb(53, 53, 53); 
-        margin-left: 0.5%;
-
     }
+
     #footer_right{
         display: flex;  
     }
 
     #social_media{
         margin: auto;
-        display: flex;
-        align-items: center;
         margin-left: 150%;
     }
     #faq{
@@ -232,27 +220,24 @@ body{
         margin-right: 10%;
     }
     #instagram_logo{
-        /* width: 40px; */
         width: 4.5vw;
     }
     #facebook_logo{
-        /* width: 50px; */
         width: 5.5vw;
         
     }
     #twitter_logo{
-        /* margin-top: 0.5px;
-        width: 38px; */
         width: 4vw;
     }
     #terms{
         font-size: 1.5vw;
-        margin: auto;
         margin-left: 10%;
     }
 
   }
-  /*---------------------------------- FOR DESKTOP ---------------------------------- */
+  /*---------------------------------------------------------------------------------*/
+  /*---------------------------------- FOR DESKTOP ----------------------------------*/
+  /*---------------------------------------------------------------------------------*/
   @media only screen and (min-width: 1025px){
       
     #header{
@@ -260,7 +245,7 @@ body{
     }
 
     #orange_logo{
-        width: 3%;
+        width: 3.3vw;
     }
 
     #header_title{
@@ -290,18 +275,26 @@ body{
         width: 60vw;
     }
     
-    .search_bar{
+    #search_bar{
         font-size: 1.2vw;
     }
-    .search_btn{
+    #search_btn{
         font-size: 1.2vw;
     }
 
-    .experiences_div_desktop{
+    #experiences_container{
         width: 96.95vw;
         grid-template-columns: repeat(3, 1fr);
         margin-top: 20px;   
         margin-bottom: 20px;
+    }
+
+    .photo_title{
+        font-size: 1.5vw;
+    }
+
+    .photo_description{
+        font-size: 1vw;
     }
 
     .col_1_desktop{
@@ -320,30 +313,14 @@ body{
     .photo_column_tablet{
         display: none;
     }
-    
-    #footer{  
-        background-color: rgb(190, 136, 54);
-        width:100%; /*94.94em*/
-        margin-top: 5%;
-        display: flex;
-        align-items: center;
-    }
 
     #orange_logo_footer{
         width: 3%;
-        float : left;   
-        margin-left: 0.5%;
-        
+        margin-left: 0.5%; 
     }
 
     #footer_title{
-        float: left;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-        font-style: Trebuchet MS;
-        font-size:1.7vw;
-        color:rgb(53, 53, 53); 
-        margin-left: 0.5%;
-
+        font-size:2vw;
     }
     #footer_right{
         display: grid;
@@ -355,13 +332,12 @@ body{
     }
     .footer_grid{
         margin: auto;
+        align-items: center;
         
     }
 
     #social_media{
         margin-top: 5%;
-        display: flex;
-        align-items: center;
         margin-left: 75%;
     }
     #faq{
@@ -369,28 +345,25 @@ body{
         margin-right: 5%;
     }
     #instagram_logo{
-        /* width: 40px; */
         width: 2.3vw;
     }
     #facebook_logo{
-        /* width: 50px; */
         width: 2.8vw;
         
     }
     #twitter_logo{
-        /* margin-top: 0.5px;
-        width: 38px; */
         width: 2vw;
     }
     #terms{
         font-size: 1.2vw;
-        margin:auto;
+        margin-left: 6.5vw;
         margin-right: -8.5vw;
         margin-bottom: 5%;
     }
   }
-
-  /* ------------------------------------------------end desktop------------------------------------------------ */
+  /* -------------------------------------------------------------------------------------------------------------- */
+  /* --------------------------------------------------- COMMON --------------------------------------------------- */
+  /* -------------------------------------------------------------------------------------------------------------- */
 
 .text{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
@@ -409,8 +382,6 @@ body{
 }
 #header_title{
     float: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
     color:rgb(53, 53, 53); 
     margin-left: 0.5%;
 }
@@ -420,8 +391,6 @@ body{
     transition: color 0.2s;
     margin-right: 1%;
     margin-top: 0.2%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
 }
 
 
@@ -430,8 +399,6 @@ body{
 }
 
 .header_button{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
     border: none;
     cursor: pointer;
     text-align: center;
@@ -462,7 +429,7 @@ body{
 }
 
 
-#experiences_div{
+#experiences_container{
     display: grid;
     align-items: center;
 }
@@ -495,7 +462,7 @@ body{
     
 }
 
-.search_bar{
+#search_bar{
     background-color: rgb(190, 136, 54);
     margin-top: auto;
     border: none;
@@ -503,18 +470,16 @@ body{
     height: 9%;
     width: 85%;
     color: rgb(53, 53, 53);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
     font-style: bold;
 }
 
-.search_bar::placeholder{
+#search_bar::placeholder{
     color: rgb(53, 53, 53);
     font-weight: 700;
     font-style: normal;
 }
 
-.search_btn{
+#search_btn{
     width: 15%;
     margin-top: auto;
     margin-left: 1%;
@@ -523,13 +488,11 @@ body{
     border-radius: 3px;
     background-color: rgb(190, 136, 54);
     color: rgb(53, 53, 53);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
     cursor: pointer;
     transition: background-color 0.5s;
 }
 
-.search_btn:hover{
+#search_btn:hover{
     box-shadow:inset 0px 0px 0px 1px rgb(190, 136, 54);
     color: rgb(190, 136, 54);
     background-color: rgb(53, 53, 53);
@@ -546,15 +509,11 @@ body{
 
 .photo_title{
     color: rgb(190, 136, 54);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
     font-weight: bold;
 }
 
 .photo_description{
     color: rgb(190, 136, 54);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: Trebuchet MS;
     font-weight: 40;
     text-align: center;
 
@@ -570,4 +529,27 @@ body{
 
 .photo:hover{
     box-shadow: 0px 0px 15px rgb(156, 100, 15);
+}
+
+#footer{  
+    background-color: rgb(190, 136, 54);
+    width:100%; /*94.94em*/
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+#orange_logo_footer{
+    float : left; 
+}
+
+#footer_title{
+    float: left;
+    color:rgb(53, 53, 53); 
+    margin-left: 0%;
+}
+
+#social_media{
+    display: flex;
+    align-items: center;
 }
