@@ -2,45 +2,73 @@
     <head>
         <title>Juicy trip</title>
         <link rel="stylesheet" href="/css/secondary_style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
     </head>
     <body>
         <!-------------------------------------------- HEADER ---------------------------------------------->
         <div id="header">
             <img id = "orange_logo" src="https://image.flaticon.com/icons/png/512/203/203262.png" alt="logo">
-            <h1 id = "header_title">Juicy trip</h1>
-            <a class = "header_text" id = "header_home" href="/html/main.html" >Home</a>
-            <a class = "header_text" id = "header_about" href="http://google.com/" target="_blank">About</a>
-            <a class = "header_text" id = "header_contact" href="http://google.com/" target="_blank">Contact</a>
-            <input type="button" class="header_button" id ="log_in_button" value="Log in"></input> 
-            <input type="button" class="header_button" value="Sign up"></input> 
+            <h1 class=" text" id = "header_title">Juicy trip</h1>
+            <a class = "header_text text" id = "header_home" href="/html/main.html" >Home</a>
+            <a class = "header_text text" id = "header_about" href="http://google.com/" target="_blank">About</a>
+            <a class = "header_text text" id = "header_contact" href="http://google.com/" target="_blank">Contact</a>
+            <input type="button" class="header_button text" id ="log_in_button" value="Log in"></input> 
+            <input type="button" class="header_button text" id ="sign_up_button" value="Sign up"></input> 
         </div>
+        <!----------------------------------------- PHOTO BANNER -------------------------------------------->
         <div id="photo">
-            <img src="https://i.ibb.co/zJWs49t/traven-experience-avila.jpg" alt="mario with farmer" id = "mario_with_farmer">
+            <img src="../images/travel_experience_avila.jpg" alt="mario with farmer" class="experience_photo">
         </div>
-        <div id="text_div">
-            <h1 id = "avila_experience_title">Avila Experience</h1>
-            <a id = "mario_with_farmer_text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices, sem 
-                malesuada bibendum commodo, diam est luctus felis, at aliquam tellus urna et est. In vel lobortis sem. Aliquam 
-                sagittis ante tortor, ut interdum ante porttitor a. Cras sodales lacinia suscipit. Suspendisse mattis dolor purus, 
-                in accumsan est pretium non. Donec sit amet justo eu mauris luctus sollicitudin id eget nisi. Proin sed fermentum 
-                mauris, a congue orci. Aliquam viverra nisi nec ornare dictum. Nullam scelerisque euismod orci, eu aliquet enim 
-                euismod a. Aliquam eros risus, pharetra eu augue sit amet, blandit rutrum orci. In at interdum purus.
 
-                Quisque vestibulum nisl in lectus malesuada ultrices. Praesent facilisis sapien et sapien mattis bibendum. 
-                Fusce eros tellus, blandit eget blandit et, vulputate eget lorem. Maecenas pretium porttitor leo non bibendum. 
-                Suspendisse potenti. Nullam luctus nunc sit amet turpis lobortis mattis quis sit amet mauris. Cras imperdiet 
-                suscipit ex, quis rhoncus tellus ornare vel. In neque urna, dignissim id bibendum quis, gravida at lectus. 
-                Maecenas commodo, arcu sit amet consequat feugiat, ex orci hendrerit ex, consequat interdum diam erat sit amet 
-                ligula. Sed pulvinar nisi at sapien tempus faucibus. Class aptent taciti sociosqu ad litora torquent per 
-                conubia nostra, per inceptos himenaeos. Nam porta diam sed facilisis molestie. Duis aliquet rutrum magna varius hendrerit. </a>
+        <!----------------------------------------- EXPERIENCES -------------------------------------------->
+
+        <div id="text_title">
+            <h1 class="text" id = "avila_experience_title">Avila Experience</h1>
+        </div>
+        <div class="text_div">
+            <div id="text_description">
+                <a class="text" id = "avila_text"> Ávila is a city of Spain located in the autonomous community of Castile and León. 
+                    It is the capital and most populated municipality of the Province of Ávila. <br>
+                    <br>
+                    It lies on the right bank of the Adaja river. Located more than 1,130 m above sea level, the city is the highest provincial capital in Spain. <br> 
+                    <br>
+                    Distinctly known by its medieval walls, Ávila is sometimes called the Town of Stones and Saints, and it claims that it is one of the towns with the 
+                    highest number of Romanesque and Gothic churches per capita in Spain.[5] It has complete and prominent medieval town walls, built in the Romanesque 
+                    style; writer José Martínez Ruiz, in his book El alma castellana ("The Castilian Soul"), described it as "perhaps the most 16th-century town in Spain". 
+                    The town is also known as Ávila de los Caballeros, Ávila del Rey and Ávila de los Leales ("Ávila of the knights", "Ávila of the king", 
+                    "Ávila of the loyal ones"), each of these epithets being present in the town standard. <br>
+                    <br>
+                    Orson Welles once named Ávila as the place in which he would most desire to live, calling it a "strange, tragic place".[6] Various scenes 
+                    of his 1965 film Chimes at Midnight were filmed in the town. <br>
+                    <br>
+                    Ávila was declared a UNESCO World Heritage Site in 1985. The site originally consisted of the walled city and four extra muros churches. 
+                    The number of churches included in the site has since been increased.  </a>
+            </div>
+        </div>
+        <!----------------------------------------- PHOTOS -------------------------------------------->
+        <div class="photo_container">
+            <img src="../images/avila-1.jpg" alt="" class = "photo">
+            <img src="../images/avila-2.jpg" alt="" class = "photo">
+            <img src="../images/avila-3.jpg" alt="" class = "photo">
+            <img src="../images/avila-4.jpg" alt="" class = "photo">
+            <img src="../images/avila-5.jpg" alt="" class = "photo">
+        </div>
+        <!----------------------------------------- VIDEOS -------------------------------------------->
+        <div class="video_container">
+            <iframe class="video" src="https://www.youtube.com/embed/90lkCZdPh6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/wtDapD-Lh4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/dokfAnITHFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/9nf0vigenSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/2QcrdB6I_F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <!---------------------------------------------------FOOTER------------------------------------------------------------------>
         <div id="footer">
             <img id="orange_logo_footer" src="https://image.flaticon.com/icons/png/512/203/203262.png" alt="logo">
-            <h1 id = "footer_title">Juicy trip</h1> 
+            <h1 class=" text" id="footer_title">Juicy trip</h1> 
             <div id="footer_right">
                 <div class="footer_grid" id="social_media">
-                    <a class="header_text" id ="faq" href="https://www.google.com" >FAQ</a>
+                    <a class="header_text text" id ="faq" href="https://www.google.com" >FAQ</a>
                     <a id="instagram_logo" href = "https://www.instagram.com/">
                         <img id="instagram_logo" alt="instagram logo" src="/images/instagram.png">
                     </a>
@@ -51,7 +79,7 @@
                         <img id="twitter_logo" alt="twitter logo" src="/images/twitter.png">
                     </a>
                 </div>
-                <a class="header_text footer_grid" id ="terms" href="https://www.google.com" >Terms and conditions</a>
+                <a class="header_text footer_grid text" id ="terms" href="https://www.google.com" >Terms and conditions</a>
             </div>
         </div>
     </body>

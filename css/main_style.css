@@ -392,6 +392,11 @@ body{
 
   /* ------------------------------------------------end desktop------------------------------------------------ */
 
+.text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    font-style: Trebuchet MS;
+}
+
 #header{
     background-color: rgb(190, 136, 54);
     width: 100%;
@@ -438,9 +443,7 @@ body{
     border:rgb(53, 53, 53) solid 2px;
     color: rgb(53, 53, 53);
     background-color: rgb(190, 136, 54);
-    transition: background-color 0.5s;
-    
-    
+    transition: background-color 0.5s; 
 }
 
 #sign_up_button:hover{
